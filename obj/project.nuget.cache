@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "sNH2BuM9NbDeqfsWahMlaewLX81LLoU1uSZDqoJqzP/Z2tS0WhaX+63AlhKrifvVwUuk75DDY1DSqAtVOPo55A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saul.netto\\Downloads\\TrabalhoFinalFPA\\TrabalhoFinalFPA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saul.netto\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\saul.netto\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\saul.netto\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\saul.netto\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

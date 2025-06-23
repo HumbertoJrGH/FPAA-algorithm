@@ -1,0 +1,82 @@
+﻿<Window x:Class="TrabalhoFinalFPA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrabalhoFinalFPA"
+        mc:Ignorable="d"
+        Title="LCS Analyzer" 
+        Height="450" Width="800" 
+        Background="#1E2A38"
+        WindowState="Maximized">
+    
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Título -->
+        <TextBlock Text="LCS - Longest Common Subsequence"
+                   Foreground="White"
+                   FontSize="28"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="0,20,0,10" />
+
+        <!-- Conteúdo Central -->
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
+            <Button Content="Programação Dinâmica"
+                    Padding="15,8"
+                    FontSize="16"
+                    Background="#3498DB"
+                    Foreground="White"
+                    BorderThickness="0"
+                    Cursor="Hand"
+                    Click="IniciarAnalise_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="#3498DB" />
+                        <Setter Property="Foreground" Value="White" />
+                        <Setter Property="FontWeight" Value="SemiBold" />
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#2C80B4" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button Content="Backtracking"
+                Padding="15,8"
+                FontSize="16"
+                Background="#27ae60"
+                Foreground="White"
+                BorderThickness="0"
+                Cursor="Hand" Margin="0,10,0,0"
+                Click="AbrirBacktracking_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="#27ae60"/>
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="FontWeight" Value="SemiBold"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#1e8449"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </StackPanel>
+
+        <!-- Rodapé -->
+        <TextBlock Grid.Row="2"
+                   Text="Grupo FPA • PUC Minas - Betim • Profª Amália Vasconcelos"
+                   Foreground="LightGray"
+                   FontSize="12"
+                   HorizontalAlignment="Center"
+                   Margin="0,20,0,10" />
+    </Grid>
+</Window>
